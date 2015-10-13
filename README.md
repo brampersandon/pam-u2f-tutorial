@@ -67,6 +67,7 @@ The host talks to the server, and completes the other half of the authentication
 > [Read more about how libu2f-host works on the Yubico Developer site](https://developers.yubico.com/libu2f-host/).
 
 In addition to the dependencies listed above, this package requires the following tools to be installed via the package manager of your choice (Debian `apt-get` and Fedora/RPM `yum` names listed below).
+
 | name | debian name | fedora name | listed in developer docs? |
 | ---  | ---    | ---    | ---     |
 | hidapi | libhidapi-hidraw0 | hidapi | yes |
@@ -74,9 +75,9 @@ In addition to the dependencies listed above, this package requires the followin
 
 Then, build things with the following shell commands: 
 
-1. `make`
-2. `./configure --enable-gtk-doc`
-3. `make check && sudo make install`
+1. `make`  
+2. `./configure --enable-gtk-doc`  
+3. `make check && sudo make install`  
 
 ### pam-u2f
 
